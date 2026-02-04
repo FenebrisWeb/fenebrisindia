@@ -18,7 +18,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="flex items-center justify-between py-4 bg-background text-foreground transition-colors duration-300">
+    <nav className="flex items-center justify-between py-4 md:px-20 bg-background text-foreground transition-colors duration-300">
       {/* Logo Section */}
       <div className="flex items-center">
         <Link href="/" className="flex items-center gap-2 group">

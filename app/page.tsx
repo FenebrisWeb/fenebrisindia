@@ -1,9 +1,11 @@
-import Image from "next/image";
+import HeroSlider from "./components/sections/HeroSlider";
+import LogoCarousel from "./components/sections/LogoCarousel";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Welcome to Fenebris India Pvt. Ltd.</h1>
-    </div>
+    <main className="w-full bg-background">
+      <HeroSlider />
+      <LogoCarousel />
+    </main>
   );
 }

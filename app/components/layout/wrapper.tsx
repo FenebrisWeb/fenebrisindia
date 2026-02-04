@@ -8,15 +8,15 @@ const Wrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         <div className="flex min-h-screen flex-col bg-background text-foreground transition-colors duration-300">
             
             {/* Header: Uses backdrop-blur and background variable with opacity */}
-            <header className="sticky top-0 z-50 w-full border-b border-border-brand bg-background/80 backdrop-blur-md transition-colors">
-                <div className="mx-auto max-w-[1650px] px-4 sm:px-6 lg:px-12">
+            <header className="sticky top-0 z-90 w-full border-b border-border-brand bg-background/80 backdrop-blur-md transition-colors">
+                <div className="mx-auto">
                     <Navbar />
                 </div>
             </header>
 
             {/* Main Content Area */}
             <main className="flex-1 w-full">
-                <div className="mx-auto max-w-[1650px] px-4 py-8 sm:px-6 sm:py-12 lg:px-12 lg:py-16">
+                <div className="flex min-h-screen flex-col">
                     {children}
                 </div>
             </main>
