@@ -1,4 +1,5 @@
 import HeroSlider from "./components/sections/HeroSlider";
+import Industries from "./components/sections/Industries";
 import LogoCarousel from "./components/sections/LogoCarousel";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <main className="w-full bg-background">
       <HeroSlider />
       <LogoCarousel />
+      <Industries />
     </main>
   );
 }
