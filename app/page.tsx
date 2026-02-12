@@ -3,6 +3,7 @@ import HeroSlider from "./components/sections/HeroSlider";
 import Industries from "./components/sections/Industries";
 import LogoCarousel from "./components/sections/LogoCarousel";
 import Services from "./components/sections/Services";
+import WhyChooseUs from "./components/sections/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <About />
       <Services />
       <Industries />
+      <WhyChooseUs />
     </main>
   );
 }
