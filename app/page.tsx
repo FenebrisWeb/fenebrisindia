@@ -1,4 +1,5 @@
 import About from "./components/sections/About";
+import FAQ from "./components/sections/FAQ";
 import HeroSlider from "./components/sections/HeroSlider";
 import Industries from "./components/sections/Industries";
 import LogoCarousel from "./components/sections/LogoCarousel";
@@ -14,6 +15,7 @@ export default function Home() {
       <Services />
       <Industries />
       <WhyChooseUs />
+      <FAQ />
     </main>
   );
 }
