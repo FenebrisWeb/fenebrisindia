@@ -10,7 +10,7 @@ type Criterion = (typeof CRITERIA)[number];
 const PLATFORMS = [
   {
     id: "fenebris",
-    name: "Fenebris India",
+    name: "Fenebris India Pvt. Ltd.",
     description: "Expert-driven architecture & committed to high-end precision. Full support without internal overhead.",
     highlighted: true,
     icon: Layers,
@@ -84,7 +84,7 @@ export default function WhyChooseUs() {
             <div className="h-1 w-12 bg-[#800020] mb-6" />
             <h2 className="text-4xl md:text-5xl font-extralight tracking-tighter uppercase leading-tight">
               Why Choose <br />
-              <span className="font-normal italic text-[#800020] dark:text-[#a30029]">Fenebris</span>
+              <span className="font-normal italic text-[#E52126] dark:text-[#a30029]">Fenebris</span>
             </h2>
           </motion.div>
           <motion.p 
@@ -100,7 +100,7 @@ export default function WhyChooseUs() {
           
           {/* Desktop Labels Row */}
           <div className="hidden md:grid grid-cols-[2fr_repeat(5,1fr)] items-center px-12 mb-6">
-            <span className="text-[12px] lg:text-[14px] font-bold tracking-[0.3em] text-[#800020] dark:text-[#a30029] uppercase">Architecture Type</span>
+            <span className="text-[12px] lg:text-[14px] font-bold tracking-[0.3em] text-[#E52126] dark:text-[#E52126] uppercase">Architecture Type</span>
             {CRITERIA.map((c) => (
               <span key={c} className="text-[12px] lg:text-[14px] font-bold tracking-[0.3em] text-zinc-400 uppercase text-center">{c}</span>
             ))}
