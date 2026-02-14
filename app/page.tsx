@@ -1,5 +1,7 @@
 import About from "./components/sections/About";
+import CTA from "./components/sections/CTA";
 import FAQ from "./components/sections/FAQ";
+import FeaturesSection from "./components/sections/FeaturesSection";
 import HeroSlider from "./components/sections/HeroSlider";
 import Industries from "./components/sections/Industries";
 import LogoCarousel from "./components/sections/LogoCarousel";
@@ -16,6 +18,8 @@ export default function Home() {
       <Services />
       <Industries />
       <WhyChooseUs />
+      <FeaturesSection />
+      <CTA />
       <FAQ />
       <PartnerSlider />
     </main>
